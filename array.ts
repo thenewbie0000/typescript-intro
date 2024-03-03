@@ -8,6 +8,7 @@ const myArray2: Array<number> = []
 myArray2.push(1);
 myArray2.push(2);
 
+// union 
 let myArray3 : (number | string)[] = []
 myArray3 = myArray2.map(String).concat(myArray1)
 
